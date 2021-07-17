@@ -1,7 +1,7 @@
 # Frontloops challenges solutions
 This is a solutions repo for [frontloops](https://frontloops.io/) challenges.
 
-All the projects are hosted on Vercel, check out this [link](https://zzl-frontendmentor-challenges.now.sh/) for live views.
+All the projects are hosted on Netlify, check out this [link](https://zzl-frontendmentor-challenges.now.sh/) for live views.
 
 ### List of the projects
 
