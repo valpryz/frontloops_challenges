@@ -7,7 +7,7 @@ All the projects are hosted on Netlify, check out this [link](https://zzl-fronte
 
 | Project Name and Live Link                                   | Repo Link                                                    |
 | ------------------------------------------------------------ | ------------------------------------------------------------ |
-| 1. [Markup Loop 1 Step 1](https://frontloops-markup-loop1-step1.netlify.app) | [repo link](https://github.com/zuolizhu/frontendmentor_challenges/tree/master/single-price-grid-component-master) |
+| 1. [Markup Loop 1 Step 1](https://frontloops-markup-loop1-step1.netlify.app) | [repo link](https://github.com/valpryz/frontloops_challenges/tree/main/markup-loop1-step1) |
 | 2. [Markup Loop 1 Step 2](https://zzl-frontendmentor-challenges.now.sh/four-card-feature-section-master/index.html) | [repo link](https://github.com/zuolizhu/frontendmentor_challenges/tree/master/four-card-feature-section-master) |
 | 3. [Markup Loop 1 Step 3](https://zzl-frontendmentor-challenges.now.sh/base-apparel-coming-soon-master/index.html) | [repo link](https://github.com/zuolizhu/frontendmentor_challenges/tree/master/base-apparel-coming-soon-master) |
 | 4. [Markup Loop 1 Step 4](https://zzl-frontendmentor-challenges.now.sh/fylo-data-storage-component-master/index.html) | [repo link](https://github.com/zuolizhu/frontendmentor_challenges/tree/master/fylo-data-storage-component-master) |
