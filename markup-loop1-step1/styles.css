@@ -1,0 +1,73 @@
+body{
+    background:rgb(146, 210, 239);
+    box-sizing:border-box;
+    display: flex;
+    justify-content: center;
+}
+
+.main {
+    background: white;
+    display: flex;
+    border-radius: 4px;
+    width: 40%;
+    padding: 15px;
+}
+
+.card {
+    width: 100%;
+    padding: 20px 30px;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    font-family: Roboto;
+    color: rgb(129, 127, 127);
+    padding: 15px 10px;
+    background: rgb(247, 246, 246);
+}
+
+.card--image {
+    width: 60px;
+    height: 60px;
+}
+
+.card--title {
+    font-size: 13px;
+    letter-spacing: 3px;
+    margin-top: 15px;
+}
+
+.card__textblue {
+    color: rgb(53, 178, 236);
+}
+
+.card__textbold {
+    font-weight: 900;
+}
+
+.card--info {
+    font-size: 10px;
+    text-align: center;
+    margin: 0;
+    line-height: 14px;
+}
+
+.card--price {
+    font-weight: bold;
+    font-size: 22px;
+    position: relative;
+    margin: 10px 0;
+}
+
+.card--price > span {
+    font-size: 10px;
+    font-weight: normal;
+}
+
+#sign {
+    position: absolute;
+    top: 3px;
+    left: -5px;
+    font-weight: bold;
+}
