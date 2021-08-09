@@ -1,0 +1,58 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+  box-sizing: border-box;
+  font-family: "roboto";
+  text-transform: uppercase;
+  background: url(/img/background.jpg);
+}
+
+.checkout {
+  box-shadow: 1px 1px 13px -2px rgba(0, 0, 0, 0.75);
+}
+
+.checkout,
+.checkout__card,
+.checkout button {
+  width: 300px;
+}
+
+.checkout__title {
+  border-radius: 5px 5px 0 0;
+}
+
+.checkout__card {
+  border-top: 1px solid lightgray;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  background: white;
+}
+
+h1 {
+  margin: 0 auto;
+}
+
+.checkout button {
+  border: none;
+  padding: 0;
+  height: 45px;
+  background: #598bdd;
+  color: white;
+  text-transform: uppercase;
+  font-weight: bold;
+  border-radius: 0 0 5px 5px;
+  padding-bottom: 10px;
+  position: relative;
+}
+
+div > img {
+  width: 40px;
+}
+
+button > span {
+  position: relative;
+  top: 7px;
+}
