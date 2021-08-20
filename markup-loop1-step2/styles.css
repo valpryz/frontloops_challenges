@@ -7,6 +7,7 @@ body {
   font-family: "roboto";
   text-transform: uppercase;
   background: url(/img/background.jpg);
+  letter-spacing: .6px;
 }
 
 .checkout {
@@ -14,22 +15,50 @@ body {
 }
 
 .checkout,
-.checkout__card,
 .checkout button {
   width: 300px;
 }
 
 .checkout__title {
   border-radius: 5px 5px 0 0;
+  background: white;
+  height: 75px;
+  font-size: 10px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content:space-around;
+  align-items: center;
 }
 
 .checkout__card {
-  border-top: 1px solid lightgray;
+  border-top: 1px solid #EFEFEF;
   display: flex;
   align-items: center;
   justify-content: flex-start;
   background: white;
+  color: #B2B4B6;
+  font-size: .7em;
+  font-weight: 600;
+  padding: 5px 20px 5px 30px;
+  cursor: pointer;
 }
+
+.checkout__card:hover {
+  color: black;
+}
+
+.checkout__card:hover:after {
+  content: url(img/check.svg);
+  width: 15px;
+}
+
+.check {
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+}
+
 
 h1 {
   margin: 0 auto;
@@ -40,19 +69,53 @@ h1 {
   padding: 0;
   height: 45px;
   background: #598bdd;
-  color: white;
+  color: #E0E9F9;
   text-transform: uppercase;
   font-weight: bold;
   border-radius: 0 0 5px 5px;
-  padding-bottom: 10px;
   position: relative;
+  font-size: .7em;
+}
+
+.checkout button:hover {
+  cursor: pointer;
+  height: 50px;
 }
 
 div > img {
-  width: 40px;
+  width: 35px;
+  margin-right: 20px;
 }
 
 button > span {
   position: relative;
-  top: 7px;
+  top: 3px;}
+
+span > img {
+  width: 12px;
+}
+
+.transition {
+  display: flex;
+  width: 35px;
+  justify-content: space-around;
+  
+}
+
+.tran {
+  width: 5px;
+  height: 5px;
+  border-radius: 100%;
+}
+
+.gray {
+  background: #B0B0B0;
+}
+
+.gray-1 {
+  background: #E2E2E2;
+}
+
+.gray-2 {
+  background: #DEDEDE;
 }
