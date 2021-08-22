@@ -1,0 +1,74 @@
+body {
+    background: #16A085;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 97vh;
+    font-family: 'Roboto';
+}
+
+.main {
+    width: 460px;
+    height: 380px;
+    background-color: white;
+    background-image: url(img/bicycle.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: 0% 700%;
+    position: relative;
+    padding: 40px 70px;
+    border-radius: 5px;
+    box-shadow: 2px 3px 9px -3px rgba(0,0,0,0.75);}
+
+header, article {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header div {
+    border: 1px solid lightgrey;
+    height: 35px;
+    width: 35px;
+    border-radius: 100%;
+    position: relative;
+}
+
+header div:hover {
+    border : 3px solid #F4F4F4;
+    cursor: pointer;
+}
+
+img {
+    position: absolute;
+    top: 5px;
+    left: 5px;
+}
+
+h1 {
+    font-size: 23px;
+    letter-spacing: -1px;
+}
+
+.main > p {
+    font-size: 14px;
+    font-weight: 500;
+    color: #A9ADB1;
+}
+
+article p, h1 {
+    font-weight: 500;
+    color: #705B5C;
+    margin-bottom: 0;
+}
+
+
+.prix, .total {
+    font-weight: 600;
+    font-size: 20px;
+    color: #3C2E1F;
+}
+
+h1 {
+    font-weight: 900;
+}
