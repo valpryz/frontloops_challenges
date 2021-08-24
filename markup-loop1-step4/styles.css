@@ -1,0 +1,117 @@
+body {
+    background-color: #CAD9E5;
+    box-sizing: border-box;
+    height: 95vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Roboto';
+}
+
+.chat-card {
+    width: 400px;
+    height: 500px;
+    background: white;
+}
+
+.chat-card__header {
+    background: #6A96D8;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 15px;
+    height: 40px;
+}
+
+.chat-card__content {
+    padding: 15px 20px;
+}
+
+.chat-card__date {
+    display: flex;
+    align-items: center;
+    color: #ECE6E1;
+    
+}
+
+.chat-card__date p {
+    margin: 10px;
+    font-size: 12px;
+}
+
+.chat-card__date .item {
+    width: 100%;
+    height: 1px;
+    background-color: #DDDDDD;
+}
+
+.chat-card__message {
+    width: auto;
+    font-size: 13px;
+    font-weight: 500;
+}
+
+.chat-card__message__time {
+    color: #AEB0B3;
+    margin-bottom: 5px;
+}
+
+.chat-card__message__card {
+    width: 67%;
+    /* height: 100%; */
+    margin-top: 5px;
+    padding: 15px;
+    color: #343537;
+}
+
+.chat-card__message__card--left {
+    background-color: #E6EDF6;
+    border-radius: 0px 5px 5px 5px;
+    align-self: flex-end;
+}
+
+.chat-card__message__card--right {
+    background-color:#F2F2F2 ;
+    border-radius: 5px 0px 5px 5px;
+    align-self: flex-end;
+}
+
+.chat-card__message__card--warning {
+    background-color:#FFC2C1 ;
+    border-radius: 5px 5px 5px 5px;
+    align-self: flex-end;
+}
+
+.chat-card__input {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.chat-card__input input {
+    border: none;
+}
+
+.chat-card__input input:focus {
+    outline: none;
+}
+
+.chat-card__input input::placeholder {
+    color: #797E85;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.chat-card__input button {
+    color: #6A96D8;
+    border: none;
+    background: white;
+    font-weight: 800;
+    cursor: pointer;
+    letter-spacing:  2px;;
+}
+
+.align-left {
+
+}
