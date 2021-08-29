@@ -11,7 +11,10 @@
 <body>
   <div class="chat-card">
     <div class="chat-card__header">
-      <div class="chat-card__header__logo">MARK ZUCKERBERG</div>
+      <div class="chat-card__header__logo">
+        <div class="point"></div>
+        <p>MARK ZUCKERBERG</p>
+      </div>
       <div class="chat-card__header__cross">
         <img src="./img/close.svg" alt="close">
       </div>
@@ -22,27 +25,28 @@
         <p>TODAY</p>
         <div class="item"></div>
       </div>
-      <div class="chat-card__message">
+      <div class="chat-card__message  chat-card__message--left">
         <p class="chat-card__message__time">10:53</p>
-        <p class="chat-card__message__card chat-card__message__card--left">Hi, Mark! I made a new design for Messenger App.</p>
+        <p class="chat-card__message__card "><span class="triangle-left"></span> Hi, Mark! I made a new design for Messenger App.</p>
       </div>
-      <div class="chat-card__message">
+      <div class="chat-card__message chat-card__message--right"> 
         <p class="chat-card__message__time">10:57</p>
-        <p class="chat-card__message__card chat-card__message__card--right">Yo! Send it to my assistant and we'll review it during the year.</p>
+        <p class="chat-card__message__card"><span class="triangle-right"></span>Yo! Send it to my assistant and we'll review it during the year.</p>
       </div>
-      <div class="chat-card__message">
+      <div class="chat-card__message  chat-card__message--left">
         <p class="chat-card__message__time">11:03</p>
-        <p class="chat-card__message__card chat-card__message__card--left">But Mark...</p>
+        <p class="chat-card__message__card third"><span class="triangle-left"></span>But Mark...</p>
       </div>
-      <div class="chat-card__message">
-        <p class="chat-card__message__card chat-card__message__card--warning">You were blocked by the user.</p>
+      <div class="chat-card__message chat-card__message--warning">
+        <p class="chat-card__message__card ">You were blocked by the user.</p>
       </div>
       <hr>
+    </div>
+    
       <div class="chat-card__input">
         <input type="text" placeholder="Enter your message">
         <button>SEND</button>
       </div>
-    </div>
   </div>
 </body>
 </html>
