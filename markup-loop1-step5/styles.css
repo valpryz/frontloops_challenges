@@ -1,0 +1,104 @@
+body {
+    background: url('img/background.jpg');
+    background-size: cover;
+    height: 97vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Roboto';
+}
+
+.card {
+    height: 320px;
+    width: 320px;
+    border-radius: 5px;
+    background: white;
+    padding: 85px 40px 25px 40px;
+    display: flex;   
+     flex-direction: column;
+    justify-content: space-between;
+}
+
+.card__title{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card__title .title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 30px;
+}
+
+.card__title .title h1 {
+    font-family: 'Prompt';
+    font-size: 50px;
+    font-weight: 900;
+    color: #3B8ACF;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+.card__title .title p {
+    font-size: 15px;
+    margin-top: 0;
+    padding-top: 0;
+    color: #AAAAAA;
+}
+
+.card__title .line {
+    width: 28px;
+    height: 6px;
+    background:#D3E6F4 ;
+}
+
+.card__infos {
+    display: flex;
+    justify-content: space-between;
+    padding-right: 57px;
+    margin-top: 65px;
+    margin-bottom: 25px;
+}
+
+.card__passenger {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.card__passenger .passenger__infos {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.passenger__infos .info {
+    height: 60px;
+}
+
+.info h2 {
+    color: #AAAAAA;
+    font-size: 13px;
+    margin-bottom: 0;
+    margin-top: 0;
+    font-weight: 500;
+}
+
+.info p {
+    color: black;
+    font-size: 16px;
+    margin-top: 0;
+    font-weight: 500;
+    margin-bottom: 0;
+}
+
+img {
+    width: 150px;
+}
+
+.right {
+    text-align: right;
+}
