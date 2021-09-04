@@ -1,0 +1,78 @@
+body {
+    height: 97vh;
+    background: ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #4D515D;
+    box-sizing: border-box;
+    font-family: 'Roboto';
+    color: transparent;
+   text-shadow: 0 0 5px rgba(0,0,0,0.1);
+   letter-spacing: -0.5px;
+}
+
+.main {
+    width: 900px;
+    height: 530px;
+    border-radius: 5px;
+    background-color: white;
+    box-shadow: 0px 4px 12px 2px rgba(0,0,0,0.48);
+    display: flex;
+}
+
+.main__content {
+    width: 79%;
+}
+
+.main__content h1 {
+    font-weight: 400;
+    color: #171717;
+    margin-left: 50px;
+    margin-top: 70px;
+    margin-bottom: 0;
+    font-size: 35px;
+}
+
+.main__content p {
+    font-size:  12px;
+    font-weight: 600;
+    color: #BBB9BA;
+    margin-left: 50px;
+    margin-bottom: 45px;
+}
+
+img {
+    height: 530px;
+    border-radius: 0 5px 5px 0;
+}
+
+footer {
+    display: flex;
+    justify-content: space-around;
+    border-top: 2px solid #F9FAFB;
+    margin-top: 60px;
+    padding-top: 25px;
+}
+
+footer .sign-up {
+    margin-left: 0;
+    color: black;
+}
+
+.account {
+    border: 2px solid #F9FAFB;
+    font-size:  10px;
+    font-weight: 600;
+    color: #9D9999;
+    margin:20px 50px;
+    padding: 15px;
+    border-radius: 3px;
+}
+
+.account img {
+    margin-right: 130px;
+    width: 15px;
+    height: 15px;
+    border-radius: 0;
+}
