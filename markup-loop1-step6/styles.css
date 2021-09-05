@@ -1,6 +1,5 @@
 body {
     height: 97vh;
-    background: ;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -9,7 +8,7 @@ body {
     font-family: 'Roboto';
     color: transparent;
    text-shadow: 0 0 5px rgba(0,0,0,0.1);
-   letter-spacing: -0.5px;
+   /* letter-spacing: -0.5px; */
 }
 
 .main {
@@ -29,14 +28,14 @@ body {
     font-weight: 400;
     color: #171717;
     margin-left: 50px;
-    margin-top: 70px;
+    margin-top: 65px;
     margin-bottom: 0;
     font-size: 35px;
 }
 
 .main__content p {
-    font-size:  12px;
-    font-weight: 600;
+    font-size:  11px;
+    font-weight: 500;
     color: #BBB9BA;
     margin-left: 50px;
     margin-bottom: 45px;
@@ -55,9 +54,11 @@ footer {
     padding-top: 25px;
 }
 
+
 footer .sign-up {
     margin-left: 0;
     color: black;
+    font-weight: 900;
 }
 
 .account {
@@ -72,7 +73,7 @@ footer .sign-up {
 
 .account img {
     margin-right: 130px;
-    width: 15px;
-    height: 15px;
+    width: 17px;
+    height: 17px;
     border-radius: 0;
 }
