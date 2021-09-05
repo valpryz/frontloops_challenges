@@ -12,7 +12,7 @@ All the projects are hosted on Netlify, check out this [link](#) for live views.
 | 3. [Markup Loop 1 Step 3](https://frontloops-markup-loop1-step3.netlify.app/) | [repo link](https://github.com/valpryz/frontloops_challenges/tree/main/markup-loop1-step3) |
 | 4. [Markup Loop 1 Step 4](https://frontloops-markup-loop1-step4.netlify.app/) | [repo link](https://github.com/valpryz/frontloops_challenges/tree/main/markup-loop1-step4) |
 | 5. [Markup Loop 1 Step 5](https://frontloops-markup-loop1-step5.netlify.app/) | [repo link](https://github.com/valpryz/frontloops_challenges/tree/main/markup-loop1-step5) |
-| 6. [Markup Loop 1 Step 6](#) | [repo link](#) |
+| 6. [Markup Loop 1 Step 6](https://frontloops-markup-loop1-step6.netlify.app/) | [repo link](https://github.com/valpryz/frontloops_challenges/tree/main/markup-loop1-step6) |
 | 7. [Markup Loop 1 Step 7](#) | [repo link](#) |
 | 8. [Markup Loop 1 Step 8](#) | [repo link](#) |
 | 9. [Markup Loop 1 Step 9](#) | [repo link](#) |
