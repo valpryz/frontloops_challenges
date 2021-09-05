@@ -8,7 +8,6 @@ body {
     font-family: 'Roboto';
     color: transparent;
    text-shadow: 0 0 5px rgba(0,0,0,0.1);
-   /* letter-spacing: -0.5px; */
 }
 
 .main {
@@ -61,6 +60,10 @@ footer .sign-up {
     font-weight: 900;
 }
 
+footer .button {
+    cursor: pointer;
+}
+
 .account {
     border: 2px solid #F9FAFB;
     font-size:  10px;
@@ -69,6 +72,13 @@ footer .sign-up {
     margin:20px 50px;
     padding: 15px;
     border-radius: 3px;
+    cursor: pointer;
+    transition: box-shadow .2s;
+}
+
+.account:hover {
+    box-shadow: -1px 3px 6px -3px rgba(0,0,0,0.75);
+        color: black;
 }
 
 .account img {
