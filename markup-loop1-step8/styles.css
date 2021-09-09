@@ -1,3 +1,152 @@
 body {
     background: #F8EBE9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 97vh;
+    font-family: 'Roboto';
+    box-sizing: border-box;
+}
+
+.card {
+    width: 1000px;
+    height: 600px;
+    display: flex;
+    box-shadow: -1px 30px 20px -4px rgba(227,200,200,0.68);}
+
+.card__left {
+width: 40%;
+height: 96.7%;
+background-image: url('img/background.jpg');
+background-repeat: no-repeat;
+background-size: cover;
+padding-top: 20px;
+padding-left: 20px;
+}
+
+.card__left p {
+    padding-left: 15px;
+    font-size: .8em;
+    color: #647C9A;
+    font-weight: 500;
+    
+}
+
+.card__left p:hover {
+    cursor: pointer;
+    color: black;
+}
+
+.card__left p span img {
+    width: 15px;
+    position: relative;
+    top: 3px;
+}
+
+.card__right {
+    width: 60%;
+    background-color: white;
+    padding: 10px 20px 40px 90px;
+}
+
+.card__right nav {
+    display: flex;
+    justify-content: flex-end;
+    padding-top: 15px;
+}
+
+.card__right nav ul{
+    display: flex;
+    width: 230px;
+    justify-content: space-between;
+    list-style: none;
+    text-transform: uppercase;
+    font-size: .8em;
+    font-weight: 500;
+    color: #9A9A9A;
+}
+
+.card__right nav ul li:hover {
+    color: black;
+    cursor: pointer;
+}
+
+.card__right .title{
+    font-family: 'Playfair Display';
+    margin: 100px 0 45px 0;
+}
+
+.card__right .title h1 {
+    font-size: 3.8em;
+    font-weight: 500;
+    line-height: 70px;
+    margin-bottom: 25px;
+}
+
+.card__right .title h1 span {
+    display: inline-block;
+    width: 95px;
+    height: 4px;
+    background-color: black;
+    margin-bottom: 10px;
+}
+
+.card__right .title p {
+    font-size: 1.2em;
+}
+
+.card__right .title p span {
+    font-weight: 600;
+}
+
+.card__right .content {
+    display: flex;
+    justify-content: space-between;
+    height: 25%;
+}
+
+.card__right .content .left {
+    text-transform: uppercase;
+    font-size: .8em;
+    font-weight: 600;
+}
+
+.card__right .content .left p img{
+    width: 11px;
+}
+
+.card__right .content .left .image-play {
+    height: 120px;
+    width: 170px;
+    background-image: url('img/preview.jpg');
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.card__right .content .left p {
+    cursor: pointer;
+}
+
+.card__right .content .left .image-play img {
+    background-color: white;
+    width: 40px;
+    border-radius: 50%;
+    opacity: .8;
+}
+
+.card__right .content .right {
+    margin: 0 40px;
+    
+}
+
+
+.card__right .content .right p {
+    font-size: 1em;
+    padding-right: 20px;
+    margin-top: 0;
+    line-height: 30px;
+    
 }
