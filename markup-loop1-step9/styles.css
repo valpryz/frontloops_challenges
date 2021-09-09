@@ -1,0 +1,42 @@
+body{
+    background: #F7CD75;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 97vh;
+    font-family: 'Roboto';
+}
+
+.card {
+    width: 900px;
+    height: 500px;
+    
+    display: flex;
+}
+
+.card__left {
+    background-color: #F2F2F2;
+    height: 100%;
+    width: 38%;
+    overflow-x: hidden;
+}
+
+.card__left:hover {
+    overflow-x: scroll;
+}
+
+.card__right .title, .card__left .title {
+    display: flex;
+    justify-content: space-between;
+}
+
+.card__right {
+    background-color: white;
+    height: 100%;
+    width: 62%;
+    overflow-x: hidden;
+}
+
+.card__right:hover {
+    overflow-x: scroll;
+}
