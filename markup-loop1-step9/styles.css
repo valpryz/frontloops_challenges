@@ -5,38 +5,189 @@ body{
     justify-content: center;
     height: 97vh;
     font-family: 'Roboto';
+    box-sizing: border-box;
 }
+
+
 
 .card {
     width: 900px;
     height: 500px;
-    
     display: flex;
+    box-shadow: 0px 2px 22px -10px rgba(0,0,0,0.75);
 }
 
 .card__left {
     background-color: #F2F2F2;
     height: 100%;
-    width: 38%;
-    overflow-x: hidden;
+    width: 35%;
+    overflow-y: hidden;
+    position: relative;
 }
 
 .card__left:hover {
-    overflow-x: scroll;
+    overflow-y: scroll;
 }
 
+.card__left::-webkit-scrollbar {
+    z-index: 1;
+    width: 10px;
+}
+
+.card__left::-webkit-scrollbar-track {
+    opacity: 0;
+}
+
+.card__left::-webkit-scrollbar-thumb {
+    background-color: black;
+    opacity: 0.3;
+    border-radius: 5px;
+}
+
+.card__left .title {
+    width: 230px;
+    margin: 30px auto;
+}
+
+.card__left .title > p {
+    font-size: 1.4em;
+}
+
+.card__left .transaction {
+    width: 230px;
+    height: 125px;
+    background-color: white;
+    border: 1px solid #DEDEDE;
+    border-radius: 5px;
+    margin: 30px auto;
+    padding-left: 15px;
+}
+
+.card__left .transaction:hover, #active {
+    cursor: pointer;
+    border: 4px solid #949FCB;
+    border-radius: 5px;
+}
+
+.card__left .transaction .transaction__number {
+    font-weight: 500;
+    font-size: 1.1em;
+    color: #707A86;
+    margin-bottom: 0;
+    margin-top: 10px;
+}
+
+.card__left .transaction .transaction__date {
+    font-weight: 500;
+    font-size: .9em;
+    color: #707A86;
+    margin-top: 5px;
+}
+
+.card__left .transaction img {
+    width: 70px;
+    margin-top: 10px;
+}
 .card__right .title, .card__left .title {
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
 .card__right {
     background-color: white;
     height: 100%;
-    width: 62%;
-    overflow-x: hidden;
+    width: 65%;
+    overflow-y: hidden;
+    border-radius: 0 5px 5px 0;
 }
 
 .card__right:hover {
-    overflow-x: scroll;
+    overflow-y: scroll;
+}
+
+.card__right::-webkit-scrollbar {
+    z-index: 1;
+    width: 10px;
+}
+
+.card__right::-webkit-scrollbar-track {
+    opacity: 0;
+}
+
+.card__right::-webkit-scrollbar-thumb {
+    background-color: black;
+    opacity: 0.3;
+    border-radius: 5px;
+}
+
+.card__right .title .value {
+    font-size: 1.6em;
+    font-weight: 600;
+}
+
+.card__right .title > p {
+    font-size: 1.4em;
+    
+    margin: 35px 0;
+}
+
+.card__right .line {
+    height: 1px;
+    background-color: #DEDEDE;
+}
+
+.card__right .title, .card__right .line, .card__right .item {
+    width: 85%;
+    margin: 0 auto;
+}
+
+.card__right .item {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 15px;
+}
+
+.card__right .item__list {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.item__title {
+    font-size: 1.2em;
+    font-weight: 900;
+    margin-bottom: 0;
+}
+
+.item__subtitle {
+    color: #B4B4B4;
+    font-weight: 500;
+    margin-top: 5px;
+}
+
+.item .price {
+    font-weight: 900;
+    font-size: 1.2em;
+    color: #8797C6;
+    margin-left: auto;
+    
+}
+
+#plus {
+    color: #8ACE5F;
+}
+
+
+.item .price sup {
+    font-size: .7em;
+}
+
+.item img {
+    width: 15px;
+    border: 1px solid #E8E8E8;
+    padding: 3px;
+    border-radius: 50%;
+    margin-right: 35px;
 }
