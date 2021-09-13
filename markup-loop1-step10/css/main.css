@@ -1,0 +1,17 @@
+body {
+    font-family: 'Roboto';
+}
+
+.one, .two, .three {
+    height: 115vh;
+    margin: 0 auto;
+}
+
+section nav, section .content, section .top, section .bottom {
+    width: 900px;
+}
+
+section nav {
+    display: flex;
+    justify-content: space-between;
+}
