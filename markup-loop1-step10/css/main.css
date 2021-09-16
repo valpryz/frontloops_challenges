@@ -1,17 +1,185 @@
 body {
     font-family: 'Roboto';
+    padding-top: 45px;
+    margin: 0;
+    box-sizing: border-box;
 }
 
-.one, .two, .three {
-    height: 115vh;
-    margin: 0 auto;
+.one {
+    height: 110vh;
+    width: 100%;
+    background-image: url('../img/watches.jpg');
+    background-repeat: no-repeat;
+    background-size: 720px;
+    background-position: left 145% bottom;
+}
+
+.line {
+    width: 100%;
+    background-color: #E0DFDF;
+    height: 1px;
 }
 
 section nav, section .content, section .top, section .bottom {
-    width: 900px;
+    width: 1000px;
+    margin: 0 auto;
 }
 
 section nav {
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    margin-bottom: 150px;
+}
+
+nav img {
+    width: 25px;
+}
+
+nav .links {
+    width: 420px;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav .links span {
+    font-size: .9em;
+    color: #A7A6A7;
+}
+
+nav .links span:hover {
+    color: black;
+    cursor: pointer;
+    font-weight: 500;
+}
+
+nav .links input {
+    outline: none;
+    border: none;
+    border-bottom: 1px solid black;
+    padding-right: 0;
+    padding-bottom: 5px;
+    color: #988A76;
+    font-weight: 600;
+    font-size: .8em;
+}
+.content h1 {
+    font-weight: 700;
+    font-size: 2.8em;
+    margin-bottom: 50px;
+}
+
+.content p {
+    color: #B2B2B3;
+    font-weight: 400;
+    font-size: .9em;
+    width: 410px;
+    border-left: 3px solid #999999;
+    line-height: 1.5em;
+    padding: 0 0 0 35px;
+    margin-bottom: 45px;
+}
+
+.content button {
+    text-transform: uppercase;
+    border: none;
+    width: 180px;
+    height: 40px;
+    color: white;
+    background-color: #EA625C;
+    font-weight: 600;
+    font-size: .8em;
+    cursor: pointer;
+}
+
+.two {
+    height: 147vh;
+    width: 100%;
+    padding-top: 45px;
+}
+
+.two .top {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 70px;
+}
+
+.two .top section {
+    width: 280px;
+}
+
+.two .top section header {
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 1em;
+    letter-spacing: -1px;
+    margin-bottom: 45px;
+}
+
+.two .top section p {
+    font-size: .9em;
+    line-height: 30px;
+    font-weight: 500;
+}
+
+.two .bottom {
+    display: flex;
+    align-items: center;
+
+}
+.two .bottom .content h1 {
+    width: 400px;
+}
+
+.two .bottom .content p {
+    width: 400px;
+}
+
+.two .bottom .content button {
+    width: 100px;
+    cursor: pointer;
+}
+
+.two .bottom img {
+    width: 450px;
+}
+
+.three {
+    height: 110vh;
+    width: 100%;
+    background-image: url("../img/runners.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.three .content {
+   
+    /* margin-left: 800px; */
+    margin-top: 45px;
+    padding-top: 200px;
+}
+
+.three .content h1 {
+    color: white;
+    width: 500px;
+}
+
+.three .content p {
+    color: white;
+    width: 400px;
+}
+
+.dots {
+    display: flex;
+    justify-content: space-between;
+    width: 40px;
+
+}
+
+.dots .dot {
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background-color: #CFD0D0;
 }
