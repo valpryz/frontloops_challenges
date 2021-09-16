@@ -122,6 +122,28 @@ nav .links input {
     font-weight: 500;
 }
 
+.two .top section .tiret {
+    width: 30px;
+    height: 2px;
+    background-color: #EA625C;
+    display: inline-block;
+    margin-right: 10px;
+    margin-bottom: 2px;
+}
+
+.two .top section .tiret:hover {
+    width: 40px;
+    transition: ease .5s width;
+    cursor: pointer;
+}
+
+.two .top section span {
+    color: #EA625C;
+    font-weight: 600;
+    font-size: .9em;
+    
+}
+
 .two .bottom {
     display: flex;
     align-items: center;
